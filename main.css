@@ -1,0 +1,62 @@
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+}
+#divmenu{
+  background-color:#FE8FE4  ;
+  width: auto;
+  height: 100px;
+  text-align:right;
+  
+
+}
+
+#divimg img {
+  width: 100px; /* Ancho del div */  
+  padding: 5px; /* Espaciado interior del div */
+}
+
+
+#divimg img{
+  display: block; /* Para que la imagen se muestre como un bloque */
+  width: 100px; /* ancho en pixeles de la imagen */
+  height: 100px; /* alto de la imagen en pixeles */
+  float: left; /* Alinea la imagen a la izquierda*/ 
+}
+
+
+#menu li {
+  display: inline;
+  margin-right: 100px;
+}
+#menu li a {
+  text-decoration: none;
+  color: #69FFB1 ;
+  font-size:20px; 
+  font-family:sans-serif;
+  transition: background-color 0.6s ease;
+}
+#menu li a:hover {
+  background-color: lightgray;
+}
+
+#div2 {    
+ background-color:#DFEFFF ;
+    width: auto;
+    height: 500px;    
+}
+
+#div2 h1{
+    text-align: center;
+    padding-top: 50px;    
+}
+
+#div2 p{
+    text-align: center ;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
